@@ -47,7 +47,7 @@ public class MyCalculator {
                 break;
 
             case 2:
-                result = subsgit (num1, num2);
+                result = subs (num1, num2);
                 break;
             case 3 :
                 result = multiplication(num1 , num2);
@@ -68,7 +68,7 @@ public class MyCalculator {
 
     public static double subs(double a, double b) {
         return a - b;
-    }gi
+    }
     public static double multiplication(double a , double b ){
 
         return a*b;
