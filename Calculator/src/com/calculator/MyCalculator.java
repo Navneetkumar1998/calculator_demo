@@ -47,7 +47,9 @@ public class MyCalculator {
                 break;
             case 3 :
                 result = multiplication(num1 , num2);
-
+                break;
+            case 4:
+                result = div(num1,num2);
                 break;
 
             default:
@@ -64,6 +66,14 @@ public class MyCalculator {
     public static double multiplication(double a , double b ){
 
         return a*b;
+    }
+
+    public static double div(double a, double b) {
+        if (b != 0) {
+            return a / b;
+        } else {
+            return Double.NaN; // Represents division by zero
+        }
     }
 
 
