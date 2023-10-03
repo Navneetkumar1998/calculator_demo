@@ -47,6 +47,7 @@ public class MyCalculator {
                 break;
             case 3 :
                 result = multiplication(num1 , num2);
+
                 break;
 
             default:
@@ -60,7 +61,8 @@ public class MyCalculator {
         return a + b;
     }
 
-    public static double multiplication(double a , double b ){
+    public static double multiplication(double a, double b ){
+
         return a*b;
     }
 
