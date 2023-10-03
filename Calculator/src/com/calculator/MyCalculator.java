@@ -70,7 +70,7 @@ public class MyCalculator {
 
     public static double subs(double a, double b) {
         return a - b;
-    }gi
+    }
     public static double multiplication(double a , double b ){
 
         return a*b;
