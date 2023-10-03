@@ -45,6 +45,9 @@ public class MyCalculator {
             case 1:
                 result = add(num1, num2);
                 break;
+            case 3 :
+                result = multiplication(num1 , num2);
+                break;
 
             default:
                 result = Double.NaN; // Represents an invalid result
@@ -55,6 +58,10 @@ public class MyCalculator {
 
     public static double add(double a, double b) {
         return a + b;
+    }
+
+    public static double multiplication(double a , double b ){
+        return a*b;
     }
 
 
